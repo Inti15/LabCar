@@ -50,6 +50,14 @@ nav > ul > li > a{
   background-color: #FCB425;
 }
 
+.fondoNegro{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.fondo{
+  background-color: lightgray;
+}
+
 /*Portada*/
 #portada{
   background-image: url("img/taxi.jpg");
