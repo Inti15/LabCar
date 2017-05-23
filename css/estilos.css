@@ -123,6 +123,10 @@ nav > ul > li > a{
   background-size: cover;
 }
 
+#login{
+  display: none;
+}
+
 #registro{
   display: none;
 }
