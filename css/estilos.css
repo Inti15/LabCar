@@ -10,6 +10,9 @@ body{
   text-align: justify;
 }
 /*Márgenes*/
+.mR{
+  margin-right: -3.9%;
+}
 .mr-5{
   margin-right: 5%;
 }
@@ -34,8 +37,8 @@ body{
   margin-top: 10%;
 }
 
-.mt-70{
-  margin-top: 70%;
+.mt-50{
+  margin-top: 50%;
 }
 
 .mt-7{
@@ -46,8 +49,12 @@ body{
   margin-top: 5%;
 }
 
-.mb-50{
-  margin-bottom: 50%;
+.mb-30{
+  margin-bottom: 30%;
+}
+
+.mb-5{
+  margin-bottom: 5%;
 }
 
 .mtb-1{
@@ -66,10 +73,14 @@ body{
 }
 
 .p-BT{
-  padding-top: 30%;
-  padding-bottom: 40%;
+  padding-top: 40%;
+  padding-bottom: 50%;
 }
 
+.ptb-20{
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
 /*Fuentes*/
 nav > ul > li > a{
   color: black;
@@ -89,7 +100,7 @@ nav > ul > li > a{
 }
 
 .fondoGris{
-  background-color: gray;
+  background-color: #616161;
 }
 
 /*Portada*/
@@ -131,5 +142,7 @@ nav > ul > li > a{
 }
 /*Footer*/
 .redes{
-  font-size: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 2%;
 }
