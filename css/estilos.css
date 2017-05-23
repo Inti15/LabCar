@@ -34,8 +34,20 @@ body{
   margin-top: 10%;
 }
 
+.mt-70{
+  margin-top: 70%;
+}
+
+.mt-7{
+  margin-top: 7%;
+}
+
 .mt-5{
   margin-top: 5%;
+}
+
+.mb-50{
+  margin-bottom: 50%;
 }
 
 .mtb-1{
@@ -43,20 +55,21 @@ body{
   margin-bottom: 1%;
 }
 
+.mtb-2{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
 .mtb-3{
   margin-top: 3%;
   margin-bottom: 3%;
 }
 
-.pbt-15{
-  padding-top: 20%;
-  padding-bottom: 30%;
+.p-BT{
+  padding-top: 30%;
+  padding-bottom: 40%;
 }
 
-.plr-2{
-  /*padding-left: 2%;*/
-  padding-right: 2%;
-}
 /*Fuentes*/
 nav > ul > li > a{
   color: black;
@@ -75,8 +88,8 @@ nav > ul > li > a{
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.fondo{
-  background-color: lightgray;
+.fondoGris{
+  background-color: gray;
 }
 
 /*Portada*/
@@ -115,4 +128,8 @@ nav > ul > li > a{
   padding: 2%;
   border: 1px solid white;
   border-radius: 2%;
+}
+/*Footer*/
+.redes{
+  font-size: 30px;
 }
