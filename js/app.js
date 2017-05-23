@@ -12,17 +12,17 @@ function mostrarLogin() {
 
 function ocultarLogin() {
   // console.log("ocultar");
-  login.style.display = "none";
+  log.style.display = "none";
   regPortada.style.display = "block";
 }
 
-// function mostrarReg(){
-//   console.log("Mostrarreg");
-//   reg.style.display = "block";
-//   regPortada.style.display = "none";
-// }
-// function ocultarReg(){
-//   console.log("ocultar");
-//   reg.style.display = " none"
-//   regPortada.style.display = "block";
-// }
+function mostrarReg(){
+  console.log("Mostrarreg");
+  reg.style.display = "block";
+  regPortada.style.display = "none";
+}
+function ocultarReg(){
+  console.log("ocultar");
+  reg.style.display = " none"
+  regPortada.style.display = "block";
+}
