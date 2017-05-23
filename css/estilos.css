@@ -14,12 +14,28 @@ body{
   margin-right: 5%;
 }
 
+.mr-1{
+  margin-right: 3%;
+}
+
+.ml-8{
+  margin-left:8%;
+}
+
 .ml-3{
   margin-left:3%;
 }
 
+.ml-1{
+  margin-left: 1%;
+}
+
 .mt-10{
   margin-top: 10%;
+}
+
+.mt-5{
+  margin-top: 5%;
 }
 
 .mtb-1{
@@ -30,6 +46,11 @@ body{
 .mtb-3{
   margin-top: 3%;
   margin-bottom: 3%;
+}
+
+.pbt-15{
+  padding-top: 20%;
+  padding-bottom: 30%;
 }
 
 .plr-2{
@@ -60,8 +81,8 @@ nav > ul > li > a{
 
 /*Portada*/
 #portada{
-  background-image: url("img/taxi.jpg");
-  background-color: lightgray;
+  background-image: url("../img/taxi.jpg");
+  background-size: cover;
 }
 /*Aplicación*/
 #tel{
@@ -74,4 +95,24 @@ nav > ul > li > a{
   border-left: 0px;
   border-style: solid;
   border-color: white;
+}
+/*COnductor*/
+#conductor{
+  background-image: url("../img/conduce.jpg");
+  background-size: cover;
+}
+/*Tarifas*/
+.txTarifa{
+  font-size: 17px;
+}
+
+.fo{
+  color:white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+.marco{
+  padding: 2%;
+  border: 1px solid white;
+  border-radius: 2%;
 }
