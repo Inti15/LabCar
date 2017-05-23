@@ -1,6 +1,10 @@
 body{
   font-family: 'Raleway', sans-serif;
 }
+
+.centro{
+  text-align: center;
+}
 /*Márgenes*/
 .mr-5{
   margin-right: 5%;
@@ -10,6 +14,9 @@ body{
   margin-left:3%;
 }
 
+.mt-10{
+  margin-top: 10%;
+}
 .mtb-1{
   margin-top: 1%;
   margin-bottom: 1%;
@@ -22,4 +29,19 @@ body{
 /*Fuentes*/
 nav > ul > li > a{
   color: black;
+}
+
+.fteBca{
+  color: white;
+}
+
+/*Colores*/
+.fondoAmarillo{
+  background-color: #FCB425;
+}
+
+/*Portada*/
+#portada{
+  background-image: url("img/taxi.jpg");
+  background-color: lightgray;
 }
