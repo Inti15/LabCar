@@ -5,6 +5,10 @@ body{
 .centro{
   text-align: center;
 }
+
+.justificado{
+  text-align: justify;
+}
 /*Márgenes*/
 .mr-5{
   margin-right: 5%;
@@ -17,9 +21,15 @@ body{
 .mt-10{
   margin-top: 10%;
 }
+
 .mtb-1{
   margin-top: 1%;
   margin-bottom: 1%;
+}
+
+.mtb-3{
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .plr-2{
@@ -44,4 +54,16 @@ nav > ul > li > a{
 #portada{
   background-image: url("img/taxi.jpg");
   background-color: lightgray;
+}
+/*Aplicación*/
+#tel{
+
+}
+.borde{
+  border-top: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-left: 0px;
+  border-style: solid;
+  border-color: white;
 }
